@@ -1,0 +1,74 @@
+#include <QString>
+#include <QImage>
+#include <iostream>
+ 
+using namespace std;
+ 
+int main ()
+{
+    QString fileName = "1.jpg";
+    if (!fileName.isEmpty())
+    {
+        QImage image(fileName);
+        if (image.isNull())
+        {
+            cout << "Error load image  "<< endl;
+            return 1;
+        }
+    }
+    QImage image(fileName);
+    int height();
+    int width();
+	int w,h;
+    //int red,green,blue;
+	
+	//while ()
+		
+	int s = image.height()*image.width()*0,1;
+	
+	QColor tsvet1 = New QColor (255,255,255,0);
+	QColor tsvet2 = New QColor (0,0,0,0);
+	QPoint p;
+	bool flag = true;
+	
+	//однополярный шум
+	for (int i=0; i<s; i++)
+	{
+			h = (int)QRandomGenerator::global()->generateDouble() * image.height();
+			w = (int)QRandomGenerator::global()->generateDouble() * image.width();
+			p = new QPoint(h, w);
+			image.setPixelColor(tsvet1,p);
+			
+	}
+	
+	//Униполярный шум
+	for (int i=0; i<s; i++)
+	{
+			h = (int)QRandomGenerator::global()->generateDouble() * image.height();
+			w = (int)QRandomGenerator::global()->generateDouble() * image.width();
+			p = new QPoint(h, w);
+					
+			if (flag == true)
+				{
+				image.setPixelColor(tsvet1,p);
+				flag = false;
+				}
+			if (flag == false)
+				{
+				image.setPixelColor(tsvet2,p);
+				flag = true;
+				}	
+	}
+	
+     //for (int i=0; i<height(); i++)
+	 //for (int j=0; j<width(); j++)
+     //{
+     //QRgb rgb = image.pixel(i, j);
+     //red[i][j] = qRed( rgb );
+     //green[i][j] = qGreen( rgb );
+     //blue[i][j] = qBlue( rgb );
+     //}
+ 
+ 
+    return 0;
+}
