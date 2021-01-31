@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Accreditation ver0_003</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionAddVideo"/>
+   <addaction name="actionAddTimer"/>
+   <addaction name="actionAddCamera"/>
+   <addaction name="actionAddUsb"/>
+   <addaction name="actionAddEthernet"/>
+   <addaction name="actionAddLogs"/>
+   <addaction name="actionAddOptions"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionAddVideo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/video.png</normaloff>:/resource/video.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddVideo</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddVideo</string>
+   </property>
+  </action>
+  <action name="actionAddTimer">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/timer.png</normaloff>:/resource/timer.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddTimer</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddTimer</string>
+   </property>
+  </action>
+  <action name="actionAddCamera">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/camera.png</normaloff>:/resource/camera.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddCamera</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddCamera</string>
+   </property>
+  </action>
+  <action name="actionAddUsb">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/usb.png</normaloff>:/resource/usb.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddUsb</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddUsb</string>
+   </property>
+  </action>
+  <action name="actionAddEthernet">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/ethernet.png</normaloff>:/resource/ethernet.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddEthernet</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddEthernet</string>
+   </property>
+  </action>
+  <action name="actionAddLogs">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/logs.png</normaloff>:/resource/logs.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddLogs</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddLogs</string>
+   </property>
+  </action>
+  <action name="actionAddOptions">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/resource/options.png</normaloff>:/resource/options.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionAddOptions</string>
+   </property>
+   <property name="toolTip">
+    <string>actionAddOptions</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
