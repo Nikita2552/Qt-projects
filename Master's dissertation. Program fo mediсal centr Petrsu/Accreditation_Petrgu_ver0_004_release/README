@@ -1,2 +1,5 @@
 This is the release of my master dissertation project.
 The program created with Qt/C++.
+In this folder:
+1. Code folder, which not has libraries.
+2. Folder with project archive.
