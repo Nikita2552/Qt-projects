@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cmdForm</class>
+ <widget class="QWidget" name="cmdForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textCMD">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>40</y>
+     <width>421</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelOg">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>420</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ожидайте завершения, либо нажмите</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonPrerv">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>420</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Прервать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelHod">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ход выполнения в командной строке:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelSpis">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Список порезанных файлов</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableSpis">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>40</y>
+     <width>221</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelFinish">
+   <property name="geometry">
+    <rect>
+     <x>346</x>
+     <y>420</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelPoyas">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>420</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>true - закончить; false - продолжить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

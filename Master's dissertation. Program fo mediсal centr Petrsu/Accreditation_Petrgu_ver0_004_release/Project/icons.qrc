@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/resource"/>
+    <qresource prefix="/">
+        <file>resource/video.png</file>
+        <file>resource/camera.png</file>
+        <file>resource/ethernet.png</file>
+        <file>resource/logs.png</file>
+        <file>resource/options.png</file>
+        <file>resource/timer.png</file>
+        <file>resource/usb.png</file>
+    </qresource>
+</RCC>
